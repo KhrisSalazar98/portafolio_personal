@@ -7,6 +7,14 @@ a {
     text-decoration: none;
 }
 
+.fa_bars, .fa_Xmark {
+    color: $color_secundario;
+}
+
+.fs_18 {
+    font-size: $font18;
+}
+
 .fs_20 {
     font-size: $font20;
 }

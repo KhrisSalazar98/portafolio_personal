@@ -1,8 +1,13 @@
 import React from 'react';
+import Helmet from '../components/Helmet';
 
 const SobreMi = () => {
     return (
-        <div>SobreMi</div>
+        <Helmet title={"Sobre mí"}>
+            <div>
+                SobreMi
+            </div>
+        </Helmet>
     )
 }
 
