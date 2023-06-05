@@ -26,6 +26,7 @@ const nav__links = [
 const NavBar = () => {
 
     const [collapse,setCollapse] = useState(false);
+    
 
     return (
         <nav className="navbar navbar-expand-lg py-3 py-lg-4">

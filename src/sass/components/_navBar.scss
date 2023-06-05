@@ -29,7 +29,13 @@
     
 }
 
-
+.sticky__header {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
 
 .navbar-nav .nav-item a {
     color: $blanco;
