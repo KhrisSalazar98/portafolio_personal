@@ -6,12 +6,18 @@
     100% { transform: translateY(0); }
 }
 
+@keyframes titulo_componente_animation {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2);}
+  100% { transform: scale(1);}
+}
+
 .name {
     color: $color_secundario;
     text-shadow: 0px 1px 6px $color_secundario;
 }
 
-.p_home {
+.p_home, .p_aboutMe {
     color: $gris5d;
     letter-spacing: 2px;
     
@@ -20,16 +26,81 @@
 
 .container_descargarCV button {
     background-color: $color_principal;
-    color: $blanco;
-    -webkit-box-shadow: 0px 0px 15px 5px $blanco; 
-    box-shadow: 0px 0px 15px 5px $blanco;
+    border: solid 2px $negro;
+    color: $color_secundario;
+    -webkit-box-shadow: 0px 0px 15px -3px $color_secundario; 
+    box-shadow: 0px 0px 15px -3px $color_secundario;
     animation: upDown_animation 3s ease-out infinite;
     @include transition_elements();
 }
 
 .container_descargarCV button:hover {
-    color: $color_secundario;
-    -webkit-box-shadow: 0px 0px 15px 5px $color_secundario; 
-    box-shadow: 0px 0px 15px 5px $color_secundario;
+    background-color: $color_secundario;
+    color: $color_principal;
+    border: solid 3px $color_secundario;
+    -webkit-box-shadow: 0px 0px 15px 7px $color_secundario; 
+    box-shadow: 0px 0px 15px 7px $color_secundario;
 
+}
+
+.titulo_componente {
+    color: $color_secundario;
+    text-shadow: 0px 1px 6px $color_secundario;
+    animation: titulo_componente_animation 1.5s linear infinite;
+}
+
+@keyframes container_img_aboutMe_animation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+.p_aboutMe span {
+    color: $color_secundario;
+    text-shadow: 0px 1px 6px $color_secundario;
+    @include transition_elements();
+}
+
+.p_aboutMe span:hover {
+    font-weight: bold;
+}
+
+.html:hover {
+    color: #ff6347;
+    text-shadow: 0px 1px 6px #ff6347;
+}
+
+.css:hover {
+    color: #264de4;
+    text-shadow: 0px 1px 6px #264de4;
+}
+
+.js:hover {
+    color: #F0DB4F;
+    text-shadow: 0px 1px 6px #F0DB4F;
+}
+
+.bootstrap:hover {
+    color: #712cf9;
+    text-shadow: 0px 1px 6px #712cf9;
+}
+
+.react:hover {
+    color: #61dafb;
+    text-shadow: 0px 1px 6px #61dafb;
+}
+
+.sass:hover {
+    color: #bf4080;
+    text-shadow: 0px 1px 6px #bf4080;
+}
+
+.reduxToolkit:hover {
+    color: #764abc;
+    text-shadow: 0px 1px 6px #764abc;
 }
