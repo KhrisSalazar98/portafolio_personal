@@ -14,8 +14,8 @@ const nav__links = [
         display: 'Sobre Mí'
     },
     {
-        path: '/habilidades',
-        display: 'Habilidades'
+        path: '/conocimientos',
+        display: 'Conocimientos'
     },
     {
         path: '/proyectos',
