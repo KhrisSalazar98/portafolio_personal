@@ -1,7 +1,10 @@
 import React from 'react';
+
+import { Link } from 'react-router-dom';
+
 import imgPersonal from '../img/milos.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCloudArrowDown } from '@fortawesome/free-solid-svg-icons';
+import { faCloudArrowDown, faGlobe } from '@fortawesome/free-solid-svg-icons';
 
 import Helmet from '../components/Helmet';
 import SobreMi from '../components/SobreMi';
@@ -32,6 +35,10 @@ const Home = () => {
                         <button className='px-3 py-2 rounded-pill' type="button"><FontAwesomeIcon icon={faCloudArrowDown} size="xl" /> Descargar CV</button>
                     </div>
 
+                    <div className='mt-4 text-center container_descargarCV'>
+                        <Link to="https://github.com/KhrisSalazar98" target='_blank' className='px-3 py-2 rounded-pill' type="button"><FontAwesomeIcon icon={faGlobe} size="xl" /> Github</Link>
+                    </div>
+
                 </div>
 
                 
@@ -44,7 +51,7 @@ const Home = () => {
             </div>
 
             <div className='main_content_home'>
-                <div>
+                <div className='text-center mt-5 mt-xl-0'>
                     <ContenidoHabilidades />
                 </div>
             </div>
