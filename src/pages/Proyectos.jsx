@@ -1,8 +1,11 @@
 import React from 'react';
+import ContenidoProyectos from '../components/ContenidoProyectos';
 
 const Proyectos = () => {
     return (
-        <div>Proyectos</div>
+        <>
+            
+        </>
     )
 }
 

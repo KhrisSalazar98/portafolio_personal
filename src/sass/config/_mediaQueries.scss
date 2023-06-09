@@ -60,7 +60,54 @@
         transform: rotateY(calc(var(--i) * 40deg)) translateZ(80px);
         -webkit-box-reflect: below 0px linear-gradient(transparent, transparent, #0004);
     }
+
+    /* Proyectos */
+    .card_proyect {
+        width: 180px;
+        height: 375px;
+        
+    }
     
+    .card_proyect .imgBx {
+        width: 160px;
+        height: 160px;
+         
+    }
+
+    .card_proyect .imgBx img {    
+        width: 150px;
+        height: 150px;
+    }
+
+    .btnVerProyecto {
+        font-size: 14px;
+    }
+    
+}
+
+@media (min-width: 300px) {
+    
+    /* Proyectos */
+    .card_proyect {
+        width: 250px;
+        height: 350px;
+        
+    }
+    
+    .card_proyect .imgBx {
+        width: 200px;
+        height: 180px;
+         
+    }
+
+    .card_proyect .imgBx img {    
+        width: 190px;
+        height: 170px;
+    }
+
+    .btnVerProyecto {
+        font-size: 15px;
+    }
 }
 
 @media (min-width: 350px) {
@@ -95,6 +142,33 @@
 
     .box span {
         transform: rotateY(calc(var(--i) * 40deg)) translateZ(120px);
+    }
+
+    
+}
+
+@media (min-width: 400px) {
+    
+    /* Proyectos */
+    .card_proyect {
+        width: 300px;
+        height: 380px;
+        
+    }
+    
+    .card_proyect .imgBx {
+        width: 240px;
+        height: 200px;
+         
+    }
+
+    .card_proyect .imgBx img {    
+        width: 230px;
+        height: 190px;
+    }
+
+    .btnVerProyecto {
+        font-size: 16px;
     }
 }
 
@@ -143,6 +217,10 @@
 }
 
 @media (min-width: 992px) { 
+    .proyectos {
+        height: 100vh;
+    }
+
     .nav__active {
         color: $color_secundario !important;
         font-weight: 600;
@@ -173,12 +251,12 @@
 
     /* slide */
     .box {
-        width: 180px;
-        height: 180px;
+        width: 140px;
+        height: 120px;
     }
 
     .box span {
-        transform: rotateY(calc(var(--i) * 40deg)) translateZ(300px);
+        transform: rotateY(calc(var(--i) * 40deg)) translateZ(220px);
     }
 }
 
@@ -201,5 +279,41 @@
 
     .img_aboutMe {
         width: 250px;
+    }
+
+    /* slide */
+    .box {
+        width: 150px;
+        height: 150px;
+    }
+
+    .box span {
+        transform: rotateY(calc(var(--i) * 40deg)) translateZ(260px);
+    }
+}
+
+
+@media (min-width: 1400px) {
+    
+    /* Proyectos */
+    .card_proyect {
+        width: 350px;
+        height: 450px;
+        
+    }
+    
+    .card_proyect .imgBx {
+        width: 290px;
+        height: 260px;
+         
+    }
+
+    .card_proyect .imgBx img {    
+        width: 280px;
+        height: 250px;
+    }
+
+    .btnVerProyecto {
+        font-size: 18px;
     }
 }

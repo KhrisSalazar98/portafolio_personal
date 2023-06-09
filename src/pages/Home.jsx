@@ -9,12 +9,14 @@ import { faCloudArrowDown, faGlobe } from '@fortawesome/free-solid-svg-icons';
 import Helmet from '../components/Helmet';
 import SobreMi from '../components/SobreMi';
 import ContenidoHabilidades from '../components/ContenidoHabilidades';
+import ContenidoProyectos from '../components/ContenidoProyectos';
 
 
 const Home = () => {
     return (
         <Helmet title={"Home"}>
             
+            {/* Contenido Home */}
             <div className='main_content_home'>
                 <div>
                     <div className="row justify-content-center mt-5">
@@ -44,18 +46,27 @@ const Home = () => {
                 
             </div>
 
+            {/* Contenido Sobre Mí */}
             <div className='main_content_home'>
                 <div className='text-center text-white mt-5 mt-xl-0'>
                     <SobreMi />
                 </div>
             </div>
 
+
+            {/* Conocimientos */}
             <div className='main_content_home'>
                 <div className='text-center mt-5 mt-xl-0'>
                     <ContenidoHabilidades />
                 </div>
             </div>
-                
+
+            {/* Proyectos */}
+            <div className='main_content_home proyectos'>
+                <div className='text-center mt-5 mt-xl-0'>
+                    <ContenidoProyectos />
+                </div>
+            </div>
             
         </Helmet>
     )
