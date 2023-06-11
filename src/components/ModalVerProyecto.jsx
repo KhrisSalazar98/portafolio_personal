@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faXmark } from '@fortawesome/free-solid-svg-icons';
+import { faXmark, faGlobe } from '@fortawesome/free-solid-svg-icons';
 
 import { Link } from 'react-router-dom';
 
@@ -12,11 +12,11 @@ const ModalVerProyecto = ({item,index}) => {
     return (
         <div className="modal fade" id={`modalVerProyecto_${index}`} tabIndex={-1} aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div className="modal-dialog modal-lg">
-                <div className="modal-content">
+                <div className="modal-content pb-5">
                     <div className="modal-header d-flex justify-content-end">
                         <button type="button" className='bg-transparent rounded-circle py-1 px-2 btnCloseModal_verProyecto' data-bs-dismiss="modal" aria-label="Close" ><FontAwesomeIcon icon={faXmark} size="xl" /></button>
                     </div>
-                    <div className="modal-body">
+                    <div className="modal-body p-0 p-md-3">
                         <h3 className="modal-title fs-4 mb-3 text-center" id="exampleModalLabel">{name}</h3>
                         <hr />
                         <div className='container'>
@@ -45,9 +45,8 @@ const ModalVerProyecto = ({item,index}) => {
 
 
                     </div>
-                    <div className="modal-footer">
-                        <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                        <Link target="_blank" to={url} className="btn btn-primary">Ir a {name}</Link>
+                    <div className="mt-4 d-flex justify-content-center align-items-center">    
+                        <Link target="_blank" to={url} className="px-3 py-2 rounded-pill btnIrAlProyecto"><FontAwesomeIcon icon={faGlobe} size="xl" /> Ir a {name}</Link>
                     </div>
                 </div>
             </div>

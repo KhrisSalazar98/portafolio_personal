@@ -172,42 +172,52 @@
 .img_proyecto {
     border: solid 4px $color_secundario;
     box-shadow: 0px 0px 15px 0px $color_secundario;
-    animation: img_proyect_animation 3s linear infinite;;
+    animation: img_proyect_animation 3s linear infinite;
 }
 
 .span_html {
     color: $color_html;
-    border: solid 2px $color_html;
+    font-weight: bold;
+    // border: solid 2px $color_html;
 }
 
 .span_css {
     color: $color_css;
-    border: solid 2px $color_css;
+    // border: solid 2px $color_css;
 }
 
 .span_js {
     color: $color_js;
-    border: solid 2px $color_js;
+    font-weight: bold;
+    // border: solid 2px $color_js;
 }
 
 .span_bootstrap {
     color: $color_bootstrap;
-    border: solid 2px $color_bootstrap;
+    font-weight: bold;
+    // border: solid 2px $color_bootstrap;
 }
 
 .span_sass {
     color: $color_sass;
-    border: solid 2px $color_sass;
+    font-weight: bold;
+    // border: solid 2px $color_sass;
 }
 
 .span_react {
     color: $color_react;
-    border: solid 2px $color_react;
+    font-weight: bold;
+    // border: solid 2px $color_react;
 }
 
 .span_reduxToolkit {
     color: $color_reduxToolkit;
-    border: solid 2px $color_reduxToolkit;
+    font-weight: bold;
+    // border: solid 2px $color_reduxToolkit;
+}
+
+.modal-content {
+    box-shadow: 0px 0px 15px 4px $color_secundario;
 }
 
 
