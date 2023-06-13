@@ -1,9 +1,3 @@
-// * {
-//     margin: 0;
-//     padding: 0;
-//     box-sizing: border-box;
-// }
-
 @import './config/variables';
 @import './config/mixins';
 @import './config/defaultStyles';
@@ -11,4 +5,5 @@
 @import './components/home';
 @import './components/habilidades';
 @import './components/proyectos';
+@import './components/footer';
 @import './config/mediaQueries';

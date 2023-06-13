@@ -54,6 +54,10 @@
     background: $color_principal;
 }
 
+.card_proyect:hover .lines::after {
+    background-color: $negro;
+}
+
 .card_proyect .imgBx {
     position: absolute;
     top: 25px;

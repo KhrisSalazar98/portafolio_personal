@@ -52,7 +52,7 @@ const ContenidoProyectos = () => {
     const proyects = [
         {
             name: "Minijuegos Cris",
-            description: "Proyecto web que consiste en un conjunto de minijuegos (Sopa de letras, Tres en Raya, Memorice, Simón Dice).",
+            description: "Conjunto de minijuegos (Sopa de letras, Tres en Raya, Memorice, Simón Dice) desarrollado en plataforma web.",
             img: imgMinijuegosCris,
             tecnologies: [
                 tecs[0], tecs[1], tecs[2], tecs[3]
