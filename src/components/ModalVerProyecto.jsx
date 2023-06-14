@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faXmark, faGlobe, faPenRuler } from '@fortawesome/free-solid-svg-icons';
+import { faXmark, faGlobe, faPenRuler, faCircleExclamation } from '@fortawesome/free-solid-svg-icons';
 
 import { Link } from 'react-router-dom';
 
@@ -47,8 +47,10 @@ const ModalVerProyecto = ({item,index}) => {
                     </div>
                     <div className="mt-4 d-flex justify-content-center align-items-center flex-column">
 
-                        {design && (
+                        {design ? (
                             <Link target="_blank" to={designUrl} className="mb-4 px-3 py-2 rounded-pill btnIrAlProyecto"><FontAwesomeIcon icon={faPenRuler} size="xl" /> Ir al diseño</Link>
+                        ): (
+                            <span className='mb-5 color_secundario'><FontAwesomeIcon icon={faCircleExclamation} size="lg" /> NOTA: Este proyecto no tiene diseño creado en Figma.</span>
                         )}
 
                         <Link target="_blank" to={url} className="px-3 py-2 rounded-pill btnIrAlProyecto"><FontAwesomeIcon icon={faGlobe} size="xl" /> Ir a {name}</Link>
