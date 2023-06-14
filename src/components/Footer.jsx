@@ -5,6 +5,8 @@ import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 import { Link } from 'react-router-dom';
 
+import { proyects } from '../js/data';
+
 const Footer = () => {
     return (
         <footer className='mt-5'>
@@ -32,10 +34,9 @@ const Footer = () => {
                         <h4 className='footer_subTitle footer_subTitle2 text-center'>Proyetos</h4>
 
                         <ul className='mt-5 text-center text-lg-start'>
-                            <li className='text-start li_footer'><Link target="_blank" to="https://6483876519d59a0e2ea30a9c--comforting-kringle-77bde7.netlify.app/index.html">Minijuegos Cris</Link></li>
-                            <li className='text-start li_footer'><Link target="_blank" to="https://dulcet-wisp-73607a.netlify.app/">My Earrings</Link></li>
-                            <li className='text-start li_footer'><Link target="_blank" to="https://deluxe-pothos-98fff4.netlify.app/">Monthly Expenses</Link></li>
-                            
+                            {proyects.map((item,index) => (
+                                <li key={index} className='text-start li_footer'><Link target="_blank" to={item.url}>{item.name}</Link></li>
+                            ))}
                         </ul>
                     </div>
 
