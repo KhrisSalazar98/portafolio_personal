@@ -1,0 +1,48 @@
+body {
+    font-family: 'Carter One', cursive;
+    background-color: $color_principal;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    color: $color_secundario;
+}
+
+.modal-header, .modal-footer {
+    border: none;
+}
+
+.modal-title {
+    color: $color_secundario;
+    text-shadow: 0px 1px 6px $color_secundario;
+}
+
+
+.fa_bars, .fa_Xmark, .btnCloseModal_verProyecto, .color_secundario {
+    color: $color_secundario;
+}
+
+.btnCloseModal_verProyecto {
+    @include transition_elements();
+    box-shadow: 0px 0px 15px -3px $color_secundario;
+    border: solid 1px transparent;
+}
+
+.btnCloseModal_verProyecto:hover {
+    border: solid 1px $color_secundario;
+}
+
+.fs_18 {
+    font-size: $font18;
+}
+
+.fs_20 {
+    font-size: $font20;
+}
+
+.fs_25 {
+    font-size: $font25;
+}

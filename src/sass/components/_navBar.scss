@@ -1,0 +1,55 @@
+@keyframes logo_animation {
+    from {text-shadow: 0px 1px $font20 $color_secundario;}
+    to {text-shadow: 0px 1px 0px $color_secundario;}
+}
+
+@keyframes nav__active_animation {
+    
+    0% {
+        -webkit-box-shadow: 0px 0px 15px 5px $color_secundario; 
+        box-shadow: 0px 0px 15px 0px $color_secundario;
+    }
+
+    50% {
+        -webkit-box-shadow: 0px 0px 15px 5px $color_secundario; 
+        box-shadow: 0px 0px 15px 5px $color_secundario;
+    }
+
+    100% {
+        -webkit-box-shadow: 0px 0px 15px 5px $color_secundario; 
+        box-shadow: 0px 0px 15px 0px $color_secundario;
+    }
+}
+
+.navbar {
+    background-color: $negro;
+    -webkit-box-shadow: 0px 6px 15px 0px $color_secundario; 
+    box-shadow: 0px 1px 15px 0px $color_secundario;
+}
+
+.logo {
+    color: $color_secundario;
+    text-shadow: 0px 1px $font20 $color_secundario;
+    animation: logo_animation 1.5s ease-out infinite;
+    
+}
+
+.sticky__header {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.navbar-nav .nav-item a {
+    color: $blanco;
+    letter-spacing: 1px;
+    @include transition_elements();
+}
+
+.navbar-nav .nav-item a:hover {
+    color: $color_secundario;
+}
+
+

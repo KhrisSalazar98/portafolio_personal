@@ -1,0 +1,76 @@
+
+ul li::marker {
+    font-size: 1.2rem;
+    color: $color_secundario;
+}
+
+ul li span {
+    color: $color_secundario;
+    text-shadow: 0px 1px 6px $color_secundario;
+    @include transition_elements();
+}
+
+
+.img_html {
+    --i: 1;
+}
+
+.img_css {
+    --i: 2;
+}
+
+.img_bootstrap {
+    --i: 3;
+}
+
+.img_js {
+    --i: 4;
+}
+
+.img_react {
+    --i: 5;
+}
+
+.img_sass {
+    --i: 6;
+}
+
+.img_npm {
+    --i: 7;
+}
+
+.img_reduxToolkit {
+    --i: 8;
+}
+
+.img_figma {
+    --i: 9;
+}
+
+
+/* Slide desktop */
+@keyframes animate {
+    0% {
+        transform: perspective(1000px) rotateY(360deg);
+    }
+    100% {
+        transform: perspective(1000px) rotateY(0deg);
+    }
+}
+
+.box span img {
+    border-radius: 8px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    @include transition_elements();
+
+}
+
+.box span img:hover {
+    -webkit-box-shadow: 0px 0px 15px 6px $color_secundario; 
+    box-shadow: 0px 0px 15px 6px $color_secundario;
+}

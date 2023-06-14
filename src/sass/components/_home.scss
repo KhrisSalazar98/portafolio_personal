@@ -1,0 +1,129 @@
+@keyframes upDown_animation {
+    0% { transform: translateY(0); }
+    25% { transform: translateY(-7px); }
+    50% { transform: translateY(0); }
+    75% { transform: translateY(-7px); }
+    100% { transform: translateY(0); }
+}
+
+@keyframes downUp_animation {
+    0% { transform: translateY(-7px); }
+    25% { transform: translateY(0); }
+    50% { transform: translateY(-7px); }
+    75% { transform: translateY(0); }
+    100% { transform: translateY(-7px); }
+}
+
+@keyframes titulo_componente_animation {
+  0% { transform: scale(0.75); }
+  50% { transform: scale(1);}
+  100% { transform: scale(0.75);}
+}
+
+.name {
+    color: $color_secundario;
+    text-shadow: 0px 1px 6px $color_secundario;
+}
+
+.p_home, .p_aboutMe {
+    color: $gris5d;
+    letter-spacing: 2px;
+    
+}
+
+
+.container_descargarCV button, .container_descargarCV a, .btnVerProyecto, .btnIrAlProyecto {
+    background-color: $color_principal;
+    border: solid 2px $negro;
+    color: $color_secundario;
+    -webkit-box-shadow: 0px 0px 15px -3px $color_secundario; 
+    box-shadow: 0px 0px 15px -3px $color_secundario;
+    animation: upDown_animation 3s ease-out infinite;
+    @include transition_elements();
+}
+
+.container_descargarCV button:hover, .container_descargarCV a:hover, .card_proyect:hover .content .details .btnVerProyecto, .btnIrAlProyecto:hover  {
+    background-color: $color_secundario;
+    color: $color_principal;
+    border: solid 3px $color_secundario;
+    -webkit-box-shadow: 0px 0px 15px 7px $color_secundario; 
+    box-shadow: 0px 0px 15px 7px $color_secundario;
+
+}
+
+.titulo_componente {
+    color: $color_secundario;
+    text-shadow: 0px 1px 6px $color_secundario;
+    animation: titulo_componente_animation 1.5s linear infinite;
+}
+
+@keyframes container_img_aboutMe_animation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+.p_aboutMe span {
+    color: $color_secundario;
+    text-shadow: 0px 1px 6px $color_secundario;
+    @include transition_elements();
+}
+
+.p_aboutMe span:hover {
+    font-weight: bold;
+}
+
+.html:hover {
+    color: $color_html;
+    text-shadow: 0px 1px 6px $color_html;
+}
+
+.css:hover {
+    color: $color_css;
+    text-shadow: 0px 1px 6px $color_css;
+}
+
+.js:hover {
+    color: $color_js;
+    text-shadow: 0px 1px 6px $color_js;
+}
+
+.bootstrap:hover {
+    color: $color_bootstrap;
+    text-shadow: 0px 1px 6px $color_bootstrap;
+}
+
+.react:hover {
+    color: $color_react;
+    text-shadow: 0px 1px 6px $color_react;
+}
+
+.sass:hover {
+    color: $color_sass;
+    text-shadow: 0px 1px 6px $color_sass;
+}
+
+.reduxToolkit:hover {
+    color: $color_reduxToolkit;
+    text-shadow: 0px 1px 6px $color_reduxToolkit;
+}
+
+.npm:hover {
+    color: #c12127;
+    text-shadow: 0px 1px 6px #c12127;
+}
+
+.git:hover {
+    color: #f14e32;
+    text-shadow: 0px 1px 6px #f14e32;
+}
+
+.figma:hover {
+    color: #00cd18;
+    text-shadow: 0px 1px 6px #00cd18;
+}
