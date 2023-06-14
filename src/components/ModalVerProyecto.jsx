@@ -1,13 +1,13 @@
 import React from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faXmark, faGlobe } from '@fortawesome/free-solid-svg-icons';
+import { faXmark, faGlobe, faPenRuler } from '@fortawesome/free-solid-svg-icons';
 
 import { Link } from 'react-router-dom';
 
 const ModalVerProyecto = ({item,index}) => {
 
-    const {name, description, img, tecnologies, url} = item;
+    const {name, description, img, tecnologies, url, design, designUrl} = item;
 
     return (
         <div className="modal fade" id={`modalVerProyecto_${index}`} tabIndex={-1} aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -45,7 +45,12 @@ const ModalVerProyecto = ({item,index}) => {
 
 
                     </div>
-                    <div className="mt-4 d-flex justify-content-center align-items-center">    
+                    <div className="mt-4 d-flex justify-content-center align-items-center flex-column">
+
+                        {design && (
+                            <Link target="_blank" to={designUrl} className="mb-4 px-3 py-2 rounded-pill btnIrAlProyecto"><FontAwesomeIcon icon={faPenRuler} size="xl" /> Ir al diseño</Link>
+                        )}
+
                         <Link target="_blank" to={url} className="px-3 py-2 rounded-pill btnIrAlProyecto"><FontAwesomeIcon icon={faGlobe} size="xl" /> Ir a {name}</Link>
                     </div>
                 </div>
