@@ -6,7 +6,7 @@ import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
 
 const nav__links = [
     {
-        path: '/home',
+        path: '/',
         display: 'Home'
     },
     {
