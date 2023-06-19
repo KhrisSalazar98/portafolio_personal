@@ -30,7 +30,7 @@ const SobreMi = () => {
                         <p className='text-center p_home p_aboutMe'>
                             Realicé mi práctica profesional en la empresa 
                             Jota A Diseño y Desarrollo en la comuna de Providencia<br className='d-md-none' />(Región Metropolitana).
-                            Después de dar por finalizada la práctica profesional, me he desepeñado en el 
+                            Después de dar por finalizada la práctica profesional, me he desempeñado en el 
                             Desarrollo Frontend junto al equipo de Jota A, aplicando <span className='html'>HTML</span>, 
                             <span className='css'>CSS</span>, <span className='js'>JavaScript</span> y <span className='bootstrap'>Bootstrap</span>. 
                         </p>
