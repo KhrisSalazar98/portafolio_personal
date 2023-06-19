@@ -65,7 +65,7 @@ export const proyects = [
     },
     {
         name: "Monthly Expenses",
-        description: "Aplicación Web Progresiva que facilita al usuario con el registro de sus gastos monetario de manera mensual con LocalStorage.",
+        description: "Aplicación Web Progresiva que facilita al usuario con el registro de sus gastos monetarios de manera mensual con LocalStorage.",
         img: imgMonthlyExpenses,
         tecnologies: [
             tecs[2], tecs[3], tecs[4], tecs[5], tecs[6]
