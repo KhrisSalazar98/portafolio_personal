@@ -2,7 +2,8 @@ import React from 'react';
 
 import { Link } from 'react-router-dom';
 
-import imgPersonal from '../img/milos.jpg';
+// import imgPersonal from '../img/milos.jpg';
+import imgPersonal from '../img/cristobal_salazar_profile2.png';
 import CV from '../CV/CristobalSalazarCV.pdf';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -33,7 +34,7 @@ const Home = () => {
                 
                     </h1>
 
-                    <p className='mt-5 text-center p_home'>Desarrollador Front-end egresado de la carrera técnica "Analista Programador" en el Centro de Formación Técnica Inacap, sede de Curicó, Región del Maule.</p>
+                    <p className='mt-5 text-center p_home'>Desarrollador Frontend egresado de la carrera técnica "Analista Programador" en el Centro de Formación Técnica Inacap, sede de Curicó, Región del Maule.</p>
 
                     <div className='mt-5 text-center container_descargarCV'>
                         <a className='px-3 py-2 rounded-pill' download href={CV} type="button"><FontAwesomeIcon icon={faCloudArrowDown} size="xl" /> Descargar CV</a>

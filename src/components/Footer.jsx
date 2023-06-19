@@ -19,11 +19,11 @@ const Footer = () => {
                             <li className='text-start li_footer'><span className='html'>HTML</span></li>
                             <li className='text-start li_footer'><span className='css'>CSS</span></li>
                             <li className='text-start li_footer'><span className='js'>JavaScript</span></li>
-                            <li className='text-start li_footer'><span className='bootstrap'>Frameword de CSS "Bootstrap"</span></li>
+                            <li className='text-start li_footer'><span className='bootstrap'>Framework de CSS "Bootstrap"</span></li>
                             <li className='text-start li_footer'><span className='react'>Librería de JavaScript "React"</span></li>
                             <li className='text-start li_footer'><span className='sass'>Preprocesador de CSS "SASS"</span></li>
                             <li className='text-start li_footer'><span className='reduxToolkit'>Redux Toolkit</span></li>
-                            <li className='text-start li_footer'><span className='npm'>NPM (básico)</span></li>
+                            <li className='text-start li_footer'><span className='npm'>Gestor de paquetes "NPM" (básico)</span></li>
                             <li className='text-start li_footer'><span className='git'>Controlador de versiones Git</span></li>
                             <li className='text-start li_footer'><span className='figma'>Figma</span></li>
                         </ul>
