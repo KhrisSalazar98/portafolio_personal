@@ -24,11 +24,11 @@ const ContenidoHabilidades = () => {
                     <li className='text-start mb-1'><span className='html'>HTML</span></li>
                     <li className='text-start mb-1'><span className='css'>CSS</span></li>
                     <li className='text-start mb-1'><span className='js'>JavaScript</span></li>
-                    <li className='text-start mb-1'><span className='bootstrap'>Frameword de CSS "Bootstrap"</span></li>
+                    <li className='text-start mb-1'><span className='bootstrap'>Framework de CSS "Bootstrap"</span></li>
                     <li className='text-start mb-1'><span className='react'>Librería de JavaScript "React"</span></li>
                     <li className='text-start mb-1'><span className='sass'>Preprocesador de CSS "SASS"</span></li>
                     <li className='text-start mb-1'><span className='reduxToolkit'>Redux Toolkit</span></li>
-                    <li className='text-start mb-1'><span className='npm'>NPM (básico)</span></li>
+                    <li className='text-start mb-1'><span className='npm'>Gestor de paquetes "NPM" (básico)</span></li>
                     <li className='text-start mb-1'><span className='git'>Controlador de versiones Git</span></li>
                     <li className='text-start mb-1'><span className='figma'>Figma</span></li>
                 </ul>
