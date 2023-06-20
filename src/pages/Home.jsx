@@ -64,7 +64,7 @@ const Home = () => {
             </div>
 
             {/* Proyectos */}
-            <div className='main_content_home proyectos'>
+            <div className='main_content_home'>
                 <div className='text-center mt-5 mt-xl-0'>
                     <ContenidoProyectos />
                 </div>
