@@ -20,7 +20,7 @@ const Home = () => {
             
             {/* Contenido Home */}
             <div id="nameContainer" className='main_content_home'>
-                <div>
+                <div className='mb-5 pb-5'>
                     <div className="row justify-content-center mt-5">
                         <div className='col-12 col-sm-12 d-flex justify-content-center align-items-center container_img_aboutMe'>
                             <img className='rounded-circle img_aboutMe' src={imgPersonal} alt="Foto Cristóbal Salazar" />

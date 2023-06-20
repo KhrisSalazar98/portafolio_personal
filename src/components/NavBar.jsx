@@ -11,7 +11,7 @@ const nav__links = [
     },
     {
         path: '/sobremi',
-        display: 'Sobre Mí'
+        display: 'Sobre mí'
     },
     {
         path: '/conocimientos',

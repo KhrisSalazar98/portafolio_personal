@@ -1,10 +1,9 @@
 import React from 'react';
-// import imgPersonal from '../img/milos.jpg';
 import imgAboutMe from '../img/cristobal_salazar2.jpeg';
 
 const SobreMi = () => {
     return (
-        <div className='mt-5 mt-xl-0'>
+        <div className='my-5 py-5 mt-xl-0'>
             <h2 className='titulo_componente'>
                 Sobre mí.
             </h2>

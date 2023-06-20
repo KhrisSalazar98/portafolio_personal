@@ -10,7 +10,7 @@ import { proyects } from '../js/data';
 const ContenidoProyectos = () => {
 
     return (
-        <div className='mt-5 pt-5 mt-lg-0'>
+        <div className='my-5 py-5 mt-lg-0'>
             <h2 className='titulo_componente'>
                 Proyectos.
             </h2>
@@ -20,7 +20,7 @@ const ContenidoProyectos = () => {
                 <div className='row justify-content-center'>
 
                     {proyects.map((item,index) => (
-                        <div key={index} className='col-12 col-sm-12 col-md-6 col-lg-4 mb-4 d-flex justify-content-center'>
+                        <div key={index} className='col-12 col-sm-12 col-md-6 col-lg-4 mb-5 d-flex justify-content-center'>
                             <div className='card_proyect'>
                                 <div className='lines'></div>
                                 <div className='imgBx'>
