@@ -2,7 +2,6 @@ import React from 'react';
 
 import { Link } from 'react-router-dom';
 
-// import imgPersonal from '../img/milos.jpg';
 import imgPersonal from '../img/cristobal_salazar_profile2.png';
 import CV from '../CV/CristobalSalazarCV.pdf';
 

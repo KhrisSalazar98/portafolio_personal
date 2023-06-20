@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faPhone, faEnvelope, faGlobe } from '@fortawesome/free-solid-svg-icons';
 
 import { Link } from 'react-router-dom';
 
@@ -46,6 +46,7 @@ const Footer = () => {
                         <ul className='mt-5'>
                             <li className='text-start li_footer'><Link target='_blank' to="tel:+56987364001"><FontAwesomeIcon className='me-2' icon={faPhone} size="lg" />Telefóno</Link></li>
                             <li className='text-start li_footer'><Link target='_blank' to="mailto:cristobal_adm_2015@outlook.com"><FontAwesomeIcon className='me-2' icon={faEnvelope} size="lg" />Correo Electrónico</Link></li>
+                            <li className='text-start li_footer'><a target='_blank' rel="noreferrer" href="https://www.linkedin.com/in/crist%C3%B3bal-salazar-salas-1032a5269/"><FontAwesomeIcon className='me-2' icon={faGlobe} size="lg" />LinkedIn</a></li>
                         </ul>
                     </div>
                     

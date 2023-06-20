@@ -20,8 +20,8 @@ const ModalVerProyecto = ({item,index}) => {
                         <h3 className="modal-title fs-4 mb-3 text-center" id="exampleModalLabel">{name}</h3>
                         <hr />
                         <div className='container'>
-                            <div className="row mt-4">
-                                <div className='col-12 col-sm-12 col-lg-4'>
+                            <div className="row justify-content-center mt-4">
+                                <div className='col-7 col-sm-6 col-lg-4'>
                                     <img className='rounded-circle w-100 img_proyecto' src={img} alt={name} />
                                 </div>
                                 <div className='col-12 col-sm-12 col-lg-8'>
@@ -50,10 +50,10 @@ const ModalVerProyecto = ({item,index}) => {
                         {design ? (
                             <Link target="_blank" to={designUrl} className="mb-4 px-3 py-2 rounded-pill btnIrAlProyecto"><FontAwesomeIcon icon={faPenRuler} size="xl" /> Ir al diseño</Link>
                         ): (
-                            <span className='mb-5 color_secundario'><FontAwesomeIcon icon={faCircleExclamation} size="lg" /> NOTA: Este proyecto no tiene diseño creado en Figma.</span>
+                            <span className='mb-5 px-2 px-lg-0 color_secundario txt_noDesign'><FontAwesomeIcon icon={faCircleExclamation} size="lg" /> NOTA: Este proyecto no tiene diseño creado en Figma.</span>
                         )}
 
-                        <Link target="_blank" to={url} className="px-3 py-2 rounded-pill btnIrAlProyecto"><FontAwesomeIcon icon={faGlobe} size="xl" /> Ir a {name}</Link>
+                        <Link target="_blank" to={url} className="px-2 px-lg-3 py-2 rounded-pill btnIrAlProyecto"><FontAwesomeIcon icon={faGlobe} size="xl" /> Ir a {name}</Link>
                     </div>
                 </div>
             </div>
