@@ -13,7 +13,7 @@ import figma from '../img/figma.png';
 const ContenidoHabilidades = () => {
 
     return (
-        <div className='mt-5 mt-lg-0'>
+        <div className='my-5 py-5 mt-lg-0'>
             <h2 className='titulo_componente'>
                 Conocimientos.
             </h2>

@@ -193,14 +193,14 @@
     }
 
     /* slide */
-    .box {
-        width: 120px;
-        height: 120px;
-    }
+    // .box {
+    //     width: 120px;
+    //     height: 120px;
+    // }
 
-    .box span {
-        transform: rotateY(calc(var(--i) * 40deg)) translateZ(180px);
-    }
+    // .box span {
+    //     transform: rotateY(calc(var(--i) * 40deg)) translateZ(180px);
+    // }
 }
 
 @media (max-width: 992px) {
@@ -251,20 +251,17 @@
 
     /* slide */
     .box {
-        width: 140px;
+        width: 120px;
         height: 120px;
     }
 
     .box span {
-        transform: rotateY(calc(var(--i) * 40deg)) translateZ(220px);
+        transform: rotateY(calc(var(--i) * 40deg)) translateZ(190px);
     }
 }
 
 @media (min-width: 1200px) {
-    .main_content_home {
-        height: 100vh;
-    }
-
+    
     /* estilos img about me*/
     .container_img_aboutMe {
         width: 300px;
@@ -283,12 +280,12 @@
 
     /* slide */
     .box {
-        width: 150px;
-        height: 150px;
+        width: 125px;
+        height: 125px;
     }
 
     .box span {
-        transform: rotateY(calc(var(--i) * 40deg)) translateZ(260px);
+        transform: rotateY(calc(var(--i) * 40deg)) translateZ(200px);
     }
 }
 
