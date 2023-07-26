@@ -68,7 +68,7 @@
 
 
 
-.p_aboutMe span {
+.p_aboutMe span, .txt_habilidad {
     color: $color_secundario;
     text-shadow: 0px 1px 6px $color_secundario;
     @include transition_elements();
@@ -111,11 +111,6 @@
 .reduxToolkit:hover {
     color: $color_reduxToolkit;
     text-shadow: 0px 1px 6px $color_reduxToolkit;
-}
-
-.npm:hover {
-    color: #c12127;
-    text-shadow: 0px 1px 6px #c12127;
 }
 
 .git:hover {
