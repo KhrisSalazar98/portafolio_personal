@@ -17,6 +17,10 @@ footer {
     animation: downUp_animation 3s ease-out infinite;
 }
 
+.titulo_footer {
+    color: $color_secundario;
+}
+
 .li_footer span, .li_footer a {
     font-size: 16px;
     color: $gris5d;
