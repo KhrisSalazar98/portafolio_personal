@@ -179,55 +179,50 @@
     animation: img_proyect_animation 3s linear infinite;
 }
 
+.span_html,.span_css,.span_js,.span_bootstrap,.span_sass,
+.span_react,.span_reduxToolkit.span_figma,.span_git,.span_npm {
+    font-weight: bold;
+}
+
 .span_html {
     color: $color_html;
-    font-weight: bold;
-    // border: solid 2px $color_html;
 }
 
 .span_css {
     color: $color_css;
-    // border: solid 2px $color_css;
 }
 
 .span_js {
     color: $color_js;
-    font-weight: bold;
-    // border: solid 2px $color_js;
 }
 
 .span_bootstrap {
     color: $color_bootstrap;
-    font-weight: bold;
-    // border: solid 2px $color_bootstrap;
 }
 
 .span_sass {
     color: $color_sass;
-    font-weight: bold;
-    // border: solid 2px $color_sass;
 }
 
 .span_react {
     color: $color_react;
-    font-weight: bold;
-    // border: solid 2px $color_react;
 }
 
 .span_reduxToolkit {
     color: $color_reduxToolkit;
-    font-weight: bold;
-    // border: solid 2px $color_reduxToolkit;
+    
 }
 
 .span_figma {
-    color: #00cd18;
-    font-weight: bold;
+    color: $color_figma;
 }
 
 .span_git {
-    color: #f14e32;
-    font-weight: bold;
+    color: $color_git;
+}
+
+.span_npm {
+    color: $color_npm;
 }
 
 .modal-content {
