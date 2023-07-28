@@ -18,7 +18,7 @@ const Footer = () => {
                     <div className='col-12 col-sm-12 col-lg-4 mt-5'>
                         <h4 className='footer_subTitle footer_subTitle1 text-center'>Conocimientos</h4>
                         
-                        <ul className='mt-5 text-center text-lg-start'>
+                        <ul className='mt-5 text-center text-lg-start ul_footer'>
                             <li className='text-start li_footer'><span className='html'>HTML</span></li>
                             <li className='text-start li_footer'><span className='css'>CSS</span></li>
                             <li className='text-start li_footer'><span className='js'>JavaScript</span></li>
@@ -26,8 +26,9 @@ const Footer = () => {
                             <li className='text-start li_footer'><span className='react'>Librería de JavaScript "React"</span></li>
                             <li className='text-start li_footer'><span className='sass'>Preprocesador de CSS "SASS"</span></li>
                             <li className='text-start li_footer'><span className='reduxToolkit'>Redux Toolkit</span></li>
-                            <li className='text-start li_footer'><span className='git'>Controlador de versiones Git</span></li>
                             <li className='text-start li_footer'><span className='figma'>Figma</span></li>
+                            <li className='text-start li_footer'><span className='git'>Controlador de versiones "Git"</span></li>
+                            <li className='text-start li_footer'><span className='npm'>Gestor de Paquetes "NPM"</span></li>
                         </ul>
 
                     </div>

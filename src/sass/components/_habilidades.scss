@@ -1,2 +1,62 @@
 
+.habilidad {
+    @include transition_elements();
+}
+
+.habilidad:hover {
+    .html {
+        color: $color_html;
+        text-shadow: 0px 1px 6px $color_html;
+    }
+
+    .css {
+        color: $color_css;
+        text-shadow: 0px 1px 6px $color_css;
+    }
+
+    .js {
+        color: $color_js;
+        text-shadow: 0px 1px 6px $color_js;
+    }
+    
+    .bootstrap {
+        color: $color_bootstrap;
+        text-shadow: 0px 1px 6px $color_bootstrap;
+    }
+    
+    .react {
+        color: $color_react;
+        text-shadow: 0px 1px 6px $color_react;
+    }
+    
+    .sass {
+        color: $color_sass;
+        text-shadow: 0px 1px 6px $color_sass;
+    }
+    
+    .reduxToolkit {
+        color: $color_reduxToolkit;
+        text-shadow: 0px 1px 6px $color_reduxToolkit;
+    }
+    
+    .git {
+        color: $color_git;
+        text-shadow: 0px 1px 6px $color_git;
+    }
+    
+    .figma {
+        color: $color_figma;
+        text-shadow: 0px 1px 6px $color_figma;
+    }
+    
+    .npm {
+        color: $color_npm;
+        text-shadow: 0px 1px 6px $color_npm;
+    }
+}
+
+
+
+
+
 

@@ -14,6 +14,7 @@ import imgReduxToolkit from "../img/ReduxToolkit_img.png";
 import imgSass from "../img/Sass_img.png";
 import imgFigma from "../img/Figma_img.png";
 import imgGit from "../img/Git_img.png";
+import imgNpm from "../img/NPM_img.png";
 
 
 export const listConocimientos = [
@@ -26,6 +27,7 @@ export const listConocimientos = [
     {name: "Redux Toolkit",img: imgReduxToolkit,class: "reduxToolkit"},
     {name: "Figma",img: imgFigma,class: "figma"},
     {name: "Git",img: imgGit,class: "git"},
+    {name: "NPM",img: imgNpm,class: "npm"}
     
 ]
 
@@ -75,6 +77,11 @@ const tecs = [
         tecName: "Git",
         class: "span_git",
         cols: 2
+    },
+    {
+        tecName: "NPM",
+        class: "span_npm",
+        cols: 2
     }
 ];
 
@@ -95,7 +102,7 @@ export const proyects = [
         description: "Aplicación Web Progresiva que permite almacenar las tareas personales del usuario aplicando LocalStorage.",
         img: imgMyEarrings,
         tecnologies: [
-            tecs[2], tecs[3], tecs[4], tecs[5], tecs[6], tecs[7], tecs[8]
+            tecs[2], tecs[3], tecs[4], tecs[5], tecs[6], tecs[7], tecs[8], tecs[9]
         ],
         url: "https://dulcet-wisp-73607a.netlify.app/",
         design: true,
@@ -106,7 +113,7 @@ export const proyects = [
         description: "Aplicación Web Progresiva que facilita al usuario con el registro de sus gastos monetarios de manera mensual con LocalStorage.",
         img: imgMonthlyExpenses,
         tecnologies: [
-            tecs[2], tecs[3], tecs[4], tecs[5], tecs[6], tecs[7], tecs[8]
+            tecs[2], tecs[3], tecs[4], tecs[5], tecs[6], tecs[7], tecs[8], tecs[9]
         ],
         url: "https://deluxe-pothos-98fff4.netlify.app/",
         design: true,
@@ -118,7 +125,7 @@ export const proyects = [
         description: "Aplicación web que obtiene información de los Pokemon provenientes de la API conocida como PokéAPI.",
         img: imgPokeList,
         tecnologies: [
-            tecs[2], tecs[3], tecs[4], tecs[5], tecs[6], tecs[7], tecs[8]
+            tecs[2], tecs[3], tecs[4], tecs[5], tecs[6], tecs[7], tecs[8], tecs[9]
         ],
         url: "https://candid-mermaid-648759.netlify.app/",
         design: true,
@@ -129,7 +136,7 @@ export const proyects = [
         description: "Galería de imágenes que obtiene dichos elementos visuales mediante la API unsplashAPI.",
         img: imgPhotoGallery,
         tecnologies: [
-            tecs[2], tecs[3], tecs[4], tecs[5], tecs[6], tecs[7], tecs[8]
+            tecs[2], tecs[3], tecs[4], tecs[5], tecs[6], tecs[7], tecs[8], tecs[9]
         ],
         url: "https://quiet-raindrop-f3577b.netlify.app/",
         design: true,
@@ -140,7 +147,7 @@ export const proyects = [
         description: "Aplicación web que recibe información desde una base de datos No SQL Firestore referente a la red del transporte público Metro de Santiago, Chile.",
         img: imgMetroSantiago,
         tecnologies: [
-            tecs[2], tecs[3], tecs[4], tecs[5], tecs[6], tecs[8]
+            tecs[2], tecs[3], tecs[4], tecs[5], tecs[6], tecs[8], tecs[9]
         ],
         url: "https://keen-unicorn-633a24.netlify.app/",
         design: false,
